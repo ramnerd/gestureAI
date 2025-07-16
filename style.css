@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plot-card {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plot-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+button, .btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #1e40af;
+}
+
+pre {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: white;
+  margin-top: 3rem;
+}
